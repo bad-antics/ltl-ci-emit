@@ -1,0 +1,15 @@
+// ltl-ci-emit/main.ltl
+//
+// CI log-emit helper — GHA groups + annotations + summaries.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ci-emit v0.1.0")
+    io::println("CI log-emit helper — GHA groups + annotations + summaries.")
+    0
+}
